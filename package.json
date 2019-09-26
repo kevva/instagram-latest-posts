@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"start": "now dev",
+		"test": "xo && ava"
+	},
+	"dependencies": {
+		"control-access": "^0.1.1",
+		"instagram-posts": "^2.2.0"
+	},
+	"devDependencies": {
+		"@now/node": "^1.0.0",
+		"ava": "^2.4.0",
+		"got": "^10.0.0-alpha.2.2",
+		"test-listen": "^1.1.0",
+		"xo": "^0.24.0"
+	}
+}
